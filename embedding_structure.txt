@@ -1,0 +1,25 @@
+[0]  nose–left_eye distance
+[1]  nose–right_eye distance
+[2]  nose–left_ear distance
+[3]  nose–right_ear distance
+[4]  nose–left_shoulder distance
+[5]  nose–right_shoulder distance
+[6]  nose–left_elbow distance
+[7]  nose–right_elbow distance
+[8]  nose–left_wrist distance
+[9]  nose–right_wrist distance
+[10] nose–left_hip distance
+[11] nose–right_hip distance
+[12] nose–left_knee distance
+[13] nose–right_knee distance
+[14] nose–left_ankle distance
+[15] nose–right_ankle distance
+[16] shoulder–nose–shoulder angle
+[17] left elbow angle
+[18] right elbow angle
+[19] left shoulder angle
+[20] right shoulder angle
+[21] left hip angle
+[22] right hip angle
+[23] left knee angle
+[24] right knee angle
