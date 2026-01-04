@@ -5,7 +5,7 @@ from torchvision import transforms
 from utils.datasets import letterbox
 from utils.general import non_max_suppression_kpt
 from utils.plots import output_to_keypoint
-
+import math
 
 def run_yolov7_pose(image_path: str, model_path: str):
     """
@@ -94,13 +94,8 @@ def extract_all_kpts(det_row):
 
     return tuple(kpts)
 
-import math
-import numpy as np
-
-
 def _distance(p1, p2):
     return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
-
 
 def _angle(a, b, c):
     """
@@ -192,3 +187,4 @@ def make_pose_embedding(kpts):
 # print(len(embedding))  # ✅ 25
 # print(person_kpts)
 #
+
