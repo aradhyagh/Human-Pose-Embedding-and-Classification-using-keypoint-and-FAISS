@@ -7,7 +7,7 @@ from collections import Counter
 from tqdm import tqdm  # progress bar
 
 # Import your existing functions
-from ara_kpts import run_yolov7_pose, extract_all_kpts, make_pose_embedding
+from ara_kpts1 import run_yolov7_pose, extract_all_kpts, make_pose_embedding
 
 # ----------------------------
 # Helper to format elapsed time
@@ -131,4 +131,5 @@ model_path = r"F:\keypoints vector db\weights\yolov7-w6-pose (1).pt"
 # # Save index + labels
 # save_vector_db(index, labels_list, path_prefix)
 #
+
 # print(labels_list)
